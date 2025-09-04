@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+
+    color: white; /* Adiciona cor na letra */
+    background-color: cadetblue; /* Adiciona cor de fundo */
+    font-size: 45px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+    margin: 50px; /* Espaçamento externo */
+    padding: 50px; /*  Espaçamento interno */
+    text-transform: capitalize; /* Transformar o texto (Maiusculo, minusculo...) */
+    font-weight: bold; /* Espessura da fonte */
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px; /* Espaçamento entre as letras */;
+    border-radius: 10px; /* Arredondar bordas */
+    border: solid black 3px; /* Adiciona borda */
+    box-shadow: rgba(0, 0, 0, 0.589) -10px -10px 5px;
+}
+
+p {
+
+    text-align: justify;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+/* Page reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Calcula automatiamente o total do tamanho da caixa e adequa*/
+}
+
+h1 {
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    border: black solid 5px;
+    font-size: 25px;
+    color: black;
+    background-color: cadetblue;
+}
+
+a {
+    display: inline-block; 
+    text-decoration: none;
+    background-color: aqua;
+    color: gray;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-family: cursive;
+    transition: 300ms; 
+    margin-bottom: 20px;
+    border: solid transparent 1px;
+}
+
+a:hover {
+    color:gray;
+    background-color: aqua;
+    border: solid black 1px;
+    transition: 1ms;
+}
