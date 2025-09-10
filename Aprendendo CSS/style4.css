@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex; /* Organiza os elementos um ao lado do outro */
+    flex-direction: column; /* Altera a direção do flex */
+    gap: 30px; /* Adiciona um espaçamento em tudo que tiver dentro do cona */
+    align-items: center; /* Alinha todos os itens dentro do container no centro */
+}
+
+#box1 {
+    background-color: red;
+}
+
+#box2 {
+    background-color: blue;
+    display: flex; /* Organiza os elementos um ao lado do outro */
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+
